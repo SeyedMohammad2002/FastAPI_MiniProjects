@@ -166,7 +166,7 @@ async def add_new_books(book_request: BookRequest):
 
 @app.delete("/delete-book", status_code=status.HTTP_204_NO_CONTENT)
 async def delete_book(book_id: int = Query(gt=0)):
-    """_summary_
+    """Delete book with book id.
 
     Args:
         book_id (int)

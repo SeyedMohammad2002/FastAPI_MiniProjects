@@ -10,4 +10,4 @@ engine = create_engine(
 
 session_local = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-Base = declarative_base()  # create an object of database.
+Base = declarative_base() # create an object of database.
